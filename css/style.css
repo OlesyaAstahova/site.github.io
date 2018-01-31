@@ -1,0 +1,149 @@
+﻿
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 1.75em;
+	background: url('../images/00bd.png') no-repeat white fixed;
+	font-size: 12pt;
+	color: black;
+}
+
+body {
+	font-family: Kreon, serif;
+}
+
+.clear {
+	clear: both;
+}
+
+h1,h2,h3,h4 {
+	text-transform: uppercase;
+	color: black;
+	margin-bottom: 1em;
+}
+
+#content {
+	padding: 0 0 0 10px;
+	width: 615px;
+	margin: 0 0 0 285px;
+}
+
+#footer {
+	padding: 20px 0 20px 0;
+	text-align: center;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.7);
+	color: black;
+}
+
+#header {
+	height: 130px;
+	padding: 40px;
+	position: relative;
+	}
+
+#logo {
+	display: inline-block;
+	width: 15em;
+	float: left;
+	background: url(../images/cap.png) no-repeat 85px 30px;}
+
+#menu {
+	margin-top: 10px;
+	line-height: 57px;
+	position: absolute;
+	right: 40px;
+	top: 76px;
+	height: 10px;
+	font-family: "Open Sans", sans-serif;
+}
+
+#menu a {
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: black;
+	font-size: 1.2em;
+}
+
+#menu a:hover {
+	text-decoration: none;
+}
+
+
+
+#menu ul li {
+	display: inline;
+	padding: 10px 10px 10px 10px;
+	margin: 0 8px 0 8px;
+}
+
+#page {
+	margin: 0;
+	position: relative;
+	width: 900px;
+	padding: 20px 40px 0 40px;
+}
+
+#line ul {
+	list-style: none;
+}
+
+#line ul li {
+	border-top: solid 1px gray;
+	padding: 10px 0 10px 0;
+}
+
+/*+*/
+#page-bottom {
+	padding: 40px 40px 0 40px;
+	background: #f3f3f3;
+	width: 900px;
+	text-align: center;
+}
+
+#line {
+	position: relative;
+	left: -20px;
+	top: -20px;
+	float: left;
+	width: 240px;
+	background: #f3f3f3;
+	padding: 20px;
+	border: solid 1px gray;
+	margin: 0 10px 0 0;
+	text-shadow: 1px 1px 0px rgba(255,255,255,1);
+	box-shadow: inset 0px 0px 0px 1px #fff;
+}
+
+#fon {
+	width: 978px;
+	position: relative;
+	background: #FFF;
+	margin: 0 auto 0 auto;
+	box-shadow: 10px 100px 150px 0px rgba(0,0,0,0.15);
+	border: solid 1px #f3f3f3;
+	border-top: 0;
+}
+
+.box img {
+	margin: 0px 20px 0px 0px;
+	border: solid 1px gray;
+}
+
+
+.box table {
+	border-collapse:collapse;
+}
+
+.box table, th, td {
+	border: 1px solid gray;
+	padding: 5px;
+}
+
+#V{
+padding-left: 750px;
+margin-top: -60px;
+font-size: 15pt;
+}
